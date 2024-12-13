@@ -21,7 +21,7 @@ type PageOrder struct {
 
 func main() {
 
-	fmt.Println("Reading file")
+
 	filename := "input.txt"
 	file, err := os.Open(filename)
 	defer file.Close()
